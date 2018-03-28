@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Google</title>
+        <link rel="stylesheet" href="C:\Users\diogo\Desktop\Diogo1809.github.io\cev" />
+        <link rel="icon" type="icon/ico" href="http://Diogo1809.github.io/imagens/google.ico">
+    </head>
+<body>	
+<div id="main">
+    <div id="nav-top">
+        <p id="name" class="twolinks">
+            Patamail
+        </p>
+        <a href="https://goo.gl/YvhKPN" class="twolinks">
+            Cocô
+        </a>
+        <a href="https://goo.gl/TtnBsv" class="twolinks">
+            Images
+        </a>
+		<input type="button" id="ninedots" onclick="dogMusicas();">
+        <div id="notif">
+            <h1 id="notif_num">9</h1>
+        </div>
+        <div id="name-div">
+            <p>D</p>
+        </div>
+    </div>
+    <div id="center-div">
+        <img src="https://goo.gl/G6mmuQ" id="logo" />
+        <h1 id="cidade">Dog</h1>
+        <input type="search" id="searchbox" placeholder=" O que deseja pesquisar?"/>
+        <input type="button" id="pesquisa" onclick="abreLink();">
+        <script>
+            function abreLink(){
+					var pesquisa = "https://www.google.com.br/search?source=hp&q=";
+                var input = document.getElementById('searchbox').value;
+                var final = pesquisa + input;
+	           window.open(final);	   
+		    }
+			function dogMusicas(){
+	           window.open("https://www.youtube.com/watch?v=0WdAQNl1H24");			   
+		    }
+        </script>
+        <a href="https://goo.gl/bn2Tew"> <!-- Adicionar funções aos botões -->
+            <div class="twobuttons" style="left: 200px;">
+                <p>Passa a pata</p>
+            </div>
+        </a>
+        <a href="https://goo.gl/SjdFT1">
+            <div class="twobuttons" style="left: 355px;">
+                <p>Estou com Fome!</p>
+            </div>
+        </a>
+    </div>
+    <div id="nav-bottom">
+        <div id="nav-bottom-left">
+            <a href="https://goo.gl/x2Uoqe" class="nav-bottom-a">
+                Publicidade
+            </a>
+            <a href="https://goo.gl/zF36dH" class="nav-bottom-a">
+                Negócios
+            </a>
+            <a href="https://goo.gl/K2yUHv" class="nav-bottom-a">
+                Sob
+            </a>
+        </div>
+        <div id="nav-bottom-right">
+            <a href="https://goo.gl/xH9ejh" class="nav-bottom-a">
+                Privacidade
+            </a>
+            <a href="https://goo.gl/akFzUL" class="nav-bottom-a">
+                Terms
+            </a>
+            <a href="https://goo.gl/2tzMLv" class="nav-bottom-a">
+                Configuações
+            </a>
+            <a href="" class="nav-bottom-a">
+                DS.com
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
