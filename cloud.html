@@ -1,16 +1,32 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
 <meta charset="Utf-8">
 <title>☁💽DogCloud 🐕🖥</title>
-<style type="text/css">
-            #topo{
-                position: absolute;
-                top: 850px; 
-                left: 1800px; 
-            }   
+<style type="text/css">  
+			#btn1{
+				position: absolute;
+				background-image: url("http://godoog.tk/imagens/Disquete.png");
+				background-size: 75px 75px;
+				background-color: transparent;
+				top: 850px;
+				left: 1800px;
+				width: 75px;
+				height: 75px;
+				border: 0px;
+			}
+			#btn2{
+				position: absolute;
+				background-image: url("http://godoog.tk/imagens/Transfer.png");
+				background-size: 85px 80px;
+				background-color: transparent;
+				top: 840px;
+				left: 1615px;
+				width: 85px;
+				height: 80px;
+				border: 0px;
+			}
 			body {
-				margin: 0;
 				background-image: url("http://Diogo1809.github.io/imagens/DogCloud.jpg") ;
 				background-repeat: no-repeat;
 				background-size: cover;
@@ -19,21 +35,23 @@
 				position: absolute;
                 top: 800px; 
                 left: 10px; 
-				color: blue;
-				background-color: white;
+				color: #00FF00;
+				background-color: none;
 			}
         </style>
-<<<<<<< HEAD:dogcloud.html
 		<link rel="icon" type="icon/ico" href="http://godoog.tk/imagens/google.ico">
-=======
-		<link rel="icon" type="icon/ico" href="http://Diogo1809.github.io/imagens/DogCloud.ico">
->>>>>>> origin/master:cloud.html
 </head>
 <body background="http://Diogo1809.github.io/imagens/DogCloud.jpg">
-<h4 id="cop">By GoDoog Inc. ©</h4>
-<form action="https://1drv.ms/f/s!Ar5Q3Idck7FAohZfxSj_KxDSJRPX" style="text-align:right;" id="topo" method="post"> 
-<input type=image src="https://cdn.icon-icons.com/icons2/9/PNG/256/diskette_save_saveas_1514.png" width="70" height="70"> 
- 
-</form>
+<h3 id="cop">By GoDoog Inc. ©</h3>
+<script>
+            function Cloud(){
+	           window.open("https://1drv.ms/f/s!Ar5Q3Idck7FAohZfxSj_KxDSJRPX");	   
+		    }
+			function Transfer(){
+	           window.open("https://1drv.ms/f/s!Ar5Q3Idck7FAoh2r9kj_JU7qPgxt");	   
+		    }
+        </script>
+<input type="button" id="btn1" onclick="Cloud();">
+<input type="button" id="btn2" onclick="Transfer();">
 </body>
 </html>
