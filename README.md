@@ -1,2 +1,2 @@
-# http://Diogo1809.github.io
-My Site
+# https://godoog.tk/
+Godoog.tk
