@@ -1,6 +1,6 @@
 body {
     margin: 0;
-	background-image: url("http://Diogo1809.github.io/imagens/Godoog-background.jpg");
+	background-image: url("https://godoog.tk/imagens/Godoog-background.jpg");
     background-size: cover;
 }
 
@@ -66,7 +66,7 @@ body {
     width: 20px;
     height: 20px;
     top: 20px;
-	background: url("http://Diogo1809.github.io/imagens/dots.ico");
+	background: url("https://godoog.tk/imagens/dots.ico");
     margin-left: 30px;
 }
 
@@ -116,7 +116,7 @@ body {
 }
 #pesquisa{
     position: absolute;
-    background: url("http://Diogo1809.github.io/imagens/img.lupa_menor_.ico");
+    background: url("https://godoog.tk/imagens/img.lupa_menor_.ico");
     top: 162px;
     margin-left: 655px;
     height: 42px;
